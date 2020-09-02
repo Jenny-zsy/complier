@@ -1,0 +1,7 @@
+program Test;
+  Var i,j,k:real;
+begin
+  i:=5.2;
+  j:=6.3;
+  k:=-7.7
+end.

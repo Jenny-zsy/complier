@@ -1,0 +1,6 @@
+program Test;
+  Var i:real;
+
+begin
+  i:=5.2
+end.

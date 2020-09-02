@@ -1,0 +1,6 @@
+Program mini1;
+Var a, b: Integer;
+    
+Begin
+           for b:=5 step -1 until 1 do a:=b+4;
+End.

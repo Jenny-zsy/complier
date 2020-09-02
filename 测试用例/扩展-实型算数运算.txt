@@ -1,0 +1,8 @@
+program Test;
+  Var A,B,C:real;
+begin
+  A:=2.5;B:=3.3;C:=-1.2;
+  A:=A+B;
+  B:=B-C;
+  C:=C*A
+end.
