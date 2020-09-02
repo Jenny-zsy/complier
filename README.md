@@ -21,7 +21,7 @@ ISE:　IBT　Statement　Else
 IBT:　If　BoolExpr　Then  
 WBD:　Wh　BoolExpr　Do  
 Wh:　While  
-Expr:　Expr'+'Expr　|　Expr'-'Expr　|  Expr'*'Expr　｜　Expr'/'Expr　|　'('Expr')'　|　'-' Expr %prec UMINUS 　|　Variable　|　Const  
+Expr:　Expr'+'Expr　|　Expr'-'Expr　|  Expr'*'Expr　｜　Expr'/'Expr　|　'('Expr')'　|　'-' Expr　|　Variable　|　Const  
 BoolExpr:　Expr　RelationOp　Expr　|　BoolExpr　And　BoolExpr　|　BoolExpr　Or　BoolExpr　|　Not　BoolExpr　|　'('　BoolExpr　')'  
 Variable:　Iden　|　Variable'['Iden']'  
 Const:　IntNo　|　RealNo  
